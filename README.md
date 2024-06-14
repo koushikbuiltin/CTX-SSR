@@ -12,5 +12,4 @@ Used to test cassini ssr-job page. It automatically redirects from the old page 
 - Click the extension icon to toggle the state. The badge text should reflect the enabled/disabled state (ON/OFF).
 - Open a new tab and navigate to a URL containing /job (e.g., http://develop.com/jobs/jibpage).
 - If the extension is enabled, the URL should automatically change to /ssr-job. If disabled, no change should occur.
-
-## (Video:)[https://www.awesomescreenshot.com/video/28646004?key=dee91919ddd31d66552cd7ea46270ae5]
+(Video)[https://www.awesomescreenshot.com/video/28646004?key=dee91919ddd31d66552cd7ea46270ae5]
