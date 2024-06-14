@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "author": "Koushik",
+  "name": "SSR - Jobs Redirects",
+  "version": "1.0",
+  "description": "Redirects /job URLs to /ssr-job",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
