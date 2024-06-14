@@ -1,5 +1,6 @@
 # CTX-SSR
 Replace /job with /ssr-job
+Used to test cassini ssr-job page. It automatically redirects from the old page to the new cassini page. Refer the video.
 
 ## Load the extension in Chrome:
 - Open Chrome and go to chrome://extensions/.
