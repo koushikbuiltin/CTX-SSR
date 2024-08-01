@@ -8,11 +8,7 @@ chrome.storage.local.get(["isEnabled"], function (result) {
 
 // Listen for tab updates
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-  if (
-    isEnabled &&
-    changeInfo.url &&
-    changeInfo.url.includes(".com/job") != changeInfo.url.includes(".com/jobs")
-  ) {
+  if (isEnabled && changeInfo.url && changeInfo.url.includes("/job/")) {
     const newUrl = changeInfo.url.replace("/job", "/ssr-job");
     chrome.tabs.update(tabId, { url: newUrl });
   }

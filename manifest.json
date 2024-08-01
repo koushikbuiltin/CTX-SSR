@@ -1,7 +1,6 @@
 {
   "manifest_version": 3,
-  "author": "Koushik",
-  "name": "SSR - Jobs Redirects",
+  "name": "Job URL Redirector",
   "version": "1.0",
   "description": "Redirects /job URLs to /ssr-job",
   "permissions": ["tabs", "storage"],
