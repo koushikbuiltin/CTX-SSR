@@ -2,11 +2,8 @@
   "manifest_version": 3,
   "name": "Job URL Redirector",
   "version": "1.0",
-  "description": "Redirects /job URLs to /ssr-job and sets a cookie if a specific text is found.",
+  "description": "Set BiDev cookies",
   "permissions": ["tabs", "storage", "scripting", "cookies"],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
