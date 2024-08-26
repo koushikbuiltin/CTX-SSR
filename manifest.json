@@ -2,10 +2,16 @@
   "manifest_version": 3,
   "name": "Job URL Redirector",
   "version": "1.0",
-  "description": "Redirects /job URLs to /ssr-job",
-  "permissions": ["tabs", "storage"],
+  "description": "Redirects /job URLs to /ssr-job and sets a cookie if a specific text is found.",
+  "permissions": ["tabs", "storage", "scripting", "cookies"],
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
   "action": {}
 }
